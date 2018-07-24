@@ -4,6 +4,7 @@
   "description": "AccountLinking Oauth2 to 1 (for example, between Alexa and Twitter)",
   "main": "index.js",
   "scripts": {
+    "build": "./node_modules/.bin/webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,10 @@
   },
   "homepage": "https://github.com/hiroyky/lambda_oauth_1_2#readme",
   "devDependencies": {
+    "@types/aws-lambda": "^8.10.8",
+    "aws-lambda": "^0.1.2",
+    "aws-sdk": "^2.279.1",
+    "ts-loader": "^4.4.2",
     "typescript": "^2.9.2",
     "webpack": "^4.16.2",
     "webpack-cli": "^3.1.0"
