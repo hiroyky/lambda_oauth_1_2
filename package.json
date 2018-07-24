@@ -1,0 +1,24 @@
+{
+  "name": "lambda_oauth_1_2",
+  "version": "1.0.0",
+  "description": "AccountLinking Oauth2 to 1 (for example, between Alexa and Twitter)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiroyky/lambda_oauth_1_2.git"
+  },
+  "author": "Hirokazu Yokoyama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hiroyky/lambda_oauth_1_2/issues"
+  },
+  "homepage": "https://github.com/hiroyky/lambda_oauth_1_2#readme",
+  "devDependencies": {
+    "typescript": "^2.9.2",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0"
+  }
+}
